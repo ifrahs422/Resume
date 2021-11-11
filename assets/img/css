@@ -1,0 +1,76 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+/* Begin site styles below */
+
+html{
+  font-size: 1.125em; /* 18/16px= 1.125 em */
+  line-height: 1.33333333em;   /* 24/18= 1.33333333 */
+  font-family: Georgia, "Times New Roman", Times, Roman, serif
+  padding: 0.66666667em; /* 16/24= 0.66666667em*/
+  /*background-image: url("assets/img/cs_background.jpg");*/
+  background-color: #9DBEB3;
+  color: #11110F
+}
+
+html#resume {
+  background-color: #9DBEB3
+}
+
+html#projects {
+  background-color: #9DBEB3
+}
+body {
+  padding: 0.5em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+  padding: 0.333333em;
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.66666667em;
+  line-height: 1em;
+  padding: 0.4em;
+  width: 50%;
+  text-align: left;
+  background-color: #E8E8EA
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.16666666667em;
+  padding: 0.66666667em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4C8A7D
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #E8E8EA;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
