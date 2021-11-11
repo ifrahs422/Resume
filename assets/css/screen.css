@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html{
   font-size: 1.125em; /* 18/16px= 1.125 em */
   line-height: 1.33333333em;   /* 24/18= 1.33333333 */
-  font-family: Georgia, "Times New Roman", Times, Roman, serif
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
   padding: 0.66666667em; /* 16/24= 0.66666667em*/
   /*background-image: url("assets/img/cs_background.jpg");*/
   background-color: #9DBEB3;
@@ -37,9 +37,6 @@ body {
   margin: 0;
 }
 
-ul {
-  background-color: none;
-}
 
 h1,
 h2,
