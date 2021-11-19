@@ -66,27 +66,36 @@ nav a{
   background-color: #4C8A7D
 }
 
-#projects li{
+#projectandapps li, #websites li{
   list-style-type: square;
   margin-left: 24px;
 }
 
+.ridesharegallery {
+  display: flex;
+  /*flex-flow: row nowrap;
+  margin-bottom: 1em; */
+}
+
 img {
   display: block;
-  width: 50%;
+  max-width: 100%;
+}
+
+figure{
+  flex: 33.33%;
+  position: relative;
+  padding-left: 1em;
+  padding-bottom: 2em;
 }
 
 figcaption {
-    position: inherit;
-    bottom: 0;
-    width: 100%;
-    padding: 5px;
+  position: absolute;
+  bottom: 0
+  padding: 1em;
+  background: #4C8A7D;
+  color: #E8E8EA;
   }
-#ridesharegallery{
-  display: flex;
-  flex-flow: row nowrap;
-}
-
 
 /*MEDIA QUERIES */
 /*600/16px = 37.5em*/
