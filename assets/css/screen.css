@@ -29,28 +29,26 @@ html {
 }
 
 h1 {
-  font-size: 2.5em;
-  line-height: 1em;
-  padding: 0.333333em;
+  font-size: 2em; /*32/16px = 2em */
+  line-height: 1em; /*16/16px = 1em */
+  padding: 0.333333em; /*16/48px = 0.333333em */
   text-align: left;
 }
 
 h2 {
-  font-size: 2em;
-  line-height: 1em;
-  padding: 0.1em;
+  font-size: 1.25em; /*20/16px = 1.25em */
+  line-height: 1em; /*16/16px = 1 */
   text-align: left;
 }
 
 h3 {
-  font-size: 1.5em;
-  line-height: 1em;
-  padding: 0.1em;
+  font-size: 1.1875em; /*19/16px = 1.1875em*/
+  line-height: 1em; /*16/16px = 1 */
   text-align: left;
 }
 
 body {
-  padding: 0.75em;
+  padding: 0.75em; /*12/16 px = 0.75em */
   margin: 0;
 }
 
@@ -80,7 +78,6 @@ nav a {
 #experience li {
   list-style-type: square;
   margin-left: 1.33333333em;   /* 24/18= 1.33333333 */
-  font-size: 1.125em;
 }
 
 .ridesharegallery {
@@ -95,14 +92,14 @@ img {
 figure {
   flex: 33.33%;
   position: relative;
-  padding-left: 1em;
-  padding-bottom: 2em;
+  padding-left: 1em; /*16/16px = 1em*/
+  padding-bottom: 2em; /*32/16px = 2em*/
 }
 
 figcaption {
   position: absolute;
   bottom: 0;
-  padding: 1em;
+  padding: 1em; /*16/16px = 1em */
   background: #4C8A7D;
   color: #E8E8EA;
 }
