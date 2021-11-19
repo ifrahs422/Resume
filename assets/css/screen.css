@@ -72,15 +72,19 @@ nav a{
   background-color: #4C8A7D
 }
 
-#projectandapps li, #websites li{
+#projectandapps li,
+#websites li,
+#education li,
+#coursework li,
+#skills li,
+#experience li {
   list-style-type: square;
   margin-left: 24px;
+  font-size: 1.125em;
 }
 
 .ridesharegallery {
   display: flex;
-  /*flex-flow: row nowrap;
-  margin-bottom: 1em; */
 }
 
 img {
