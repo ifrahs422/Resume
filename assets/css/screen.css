@@ -13,19 +13,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #goals,
-#aboutme
- {
+#aboutme {
   flex: 1 0 auto;
   height: 100vw;
 }
-html{
+
+html {
   font-size: 1.125em; /* 18/16px= 1.125 em */
   line-height: 1.33333333em;   /* 24/18= 1.33333333 */
   font-family: Georgia, "Times New Roman", Times, Roman, serif;
   padding: 0.66666667em; /* 16/24= 0.66666667em*/
   /*background-image: url("assets/img/cs_background.jpg");*/
   background-color: #9DBEB3;
-  color: #11110F
+  color: #11110F;
 }
 
 h1 {
@@ -59,17 +59,17 @@ h2,
 p,
 ul,
 nav {
-  padding-bottom: 24px;
+  padding-bottom: 1.33333333em;   /* 24/18= 1.33333333 */
 }
 
-nav a{
+nav a {
   padding-bottom: 0;
   display: block;
   color: #E8E8EA;
   text-align: left;
-  padding: 14px 16px;
+  padding: 0.77777778em 0.8888888889em;    /*14/18= 0.7777778em 16/18px - 0.8888888889em*/
   text-decoration: none;
-  background-color: #4C8A7D
+  background-color: #4C8A7D;
 }
 
 #projectandapps li,
@@ -79,7 +79,7 @@ nav a{
 #skills li,
 #experience li {
   list-style-type: square;
-  margin-left: 24px;
+  margin-left: 1.33333333em;   /* 24/18= 1.33333333 */
   font-size: 1.125em;
 }
 
@@ -92,7 +92,7 @@ img {
   max-width: 100%;
 }
 
-figure{
+figure {
   flex: 33.33%;
   position: relative;
   padding-left: 1em;
@@ -105,7 +105,7 @@ figcaption {
   padding: 1em;
   background: #4C8A7D;
   color: #E8E8EA;
-  }
+}
 
 /*MEDIA QUERIES */
 /*600/16px = 37.5em*/
