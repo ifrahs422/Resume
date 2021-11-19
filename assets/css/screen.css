@@ -29,13 +29,20 @@ html{
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   line-height: 1em;
   padding: 0.333333em;
   text-align: left;
 }
 
 h2 {
+  font-size: 2em;
+  line-height: 1em;
+  padding: 0.1em;
+  text-align: left;
+}
+
+h3 {
   font-size: 1.5em;
   line-height: 1em;
   padding: 0.1em;
@@ -46,7 +53,6 @@ body {
   padding: 0.75em;
   margin: 0;
 }
-
 
 h1,
 h2,
@@ -91,7 +97,7 @@ figure{
 
 figcaption {
   position: absolute;
-  bottom: 0
+  bottom: 0;
   padding: 1em;
   background: #4C8A7D;
   color: #E8E8EA;
