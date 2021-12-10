@@ -70,6 +70,11 @@ nav a {
   background-color: #4C8A7D;
 }
 
+nav a:hover, nav a:active{
+  background-color: silver;
+  color: white;
+}
+
 #projectandapps li,
 #websites li,
 #education li,
