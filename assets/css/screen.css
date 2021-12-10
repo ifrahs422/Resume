@@ -68,6 +68,9 @@ nav a {
   padding: 0.77777778em 0.8888888889em;    /*14/18= 0.7777778em 16/18px - 0.8888888889em*/
   text-decoration: none;
   background-color: #4C8A7D;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
 }
 
 nav a:hover, nav a:active{
@@ -77,6 +80,15 @@ nav a:hover, nav a:active{
 
 nav a:focus, #resumehome, #projectshome, #indexhome{
   background-color: black;
+}
+
+#dropdownmenu ul{
+  position: absolute;
+  top: 25px
+  left: -1px;
+  width: 200px;
+  padding: 0;
+  display: none;
 }
 
 #projectandapps li,
