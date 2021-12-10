@@ -75,7 +75,7 @@ nav a:hover, nav a:active{
   color: white;
 }
 
-nav a:focus {
+nav a:focus, #resumehome, #projectshome, #indexhome{
   background-color: black;
 }
 
