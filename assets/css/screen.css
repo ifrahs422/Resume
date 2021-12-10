@@ -73,22 +73,13 @@ nav a {
   border-color: white;
 }
 
-nav a:hover, nav a:active{
+nav a:hover, nav a:active {
   background-color: silver;
   color: white;
 }
 
-nav a:focus, #resumehome, #projectshome, #indexhome{
+nav a:focus, #resumehome, #projectshome, #indexhome {
   background-color: black;
-}
-
-#dropdownmenu ul{
-  position: absolute;
-  top: 25px;
-  left: -1px;
-  width: 200px;
-  padding: 0;
-  display: none;
 }
 
 #projectandapps li,
